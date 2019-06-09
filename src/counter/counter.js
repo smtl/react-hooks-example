@@ -5,6 +5,7 @@ function Counter(props) {
 
   return (
     <div>
+      <p>Counter using hooks: useState</p>
       <p>You clicked {count} times</p>
       <button onClick={() => setCount(count + 1)}>Increase</button>
       <button onClick={() => setCount(count - 1)}>Decrease</button>

@@ -1,13 +1,16 @@
 import React from "react";
 import "./App.css";
 import Counter from "./counter/counter";
+import CounterWithReducer from "./counterWithReducer/counterWithReducer";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Counter using hooks</p>
         <Counter></Counter>
+        <br />
+        <br />
+        <CounterWithReducer></CounterWithReducer>
       </header>
     </div>
   );
